@@ -35,4 +35,18 @@ public class TaskManager
             Console.WriteLine($"[{task.Id}] {task.Description} - {(task.IsComplete ? "Complete" : "Incomplete")}");
         }
     }
+
+    public void MarkTaskAsComplete(int taskNumber)
+{
+    if (taskNumber > 0 && taskNumber <= tasks.Count)
+    {
+        tasks[taskNumber - 1].IsCompleted = true;
+        Console.WriteLine($"Task {taskNumber} marked as completed.");
+    }
+    else
+    {
+        Console.WriteLine("Invalid task number.");
+    }
+}
+
 }
