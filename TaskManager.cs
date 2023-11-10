@@ -1,3 +1,4 @@
+// TaskManager.cs
 using System;
 using System.Collections.Generic;
 
@@ -10,27 +11,28 @@ public class TaskManager
         tasks = new List<Task>();
     }
 
-    public void AddTask(string description) 
+    public void AddTask(string description)
     {
         int taskId = tasks.Count + 1;
-        Task newTask = new Task {Id = taskId. Description = description. IsComplete = false };
+        Task newTask = new Task { Id = taskId, Description = description, IsComplete = false };
         tasks.Add(newTask);
     }
 
-public void MarkTaskAsComplete(int taskId)
-{
-    Task task = tasks.Find(task => t.Id == taskId);
-    if (task != null)
+    public void MarkTaskAsComplete(int taskId)
     {
-        task.IsComplete = true;
+        Task task = tasks.Find(t => t.Id == taskId);
+        if (task != null)
+        {
+            task.IsComplete = true;
+        }
     }
-}
-public void ListTasks()
-{
-    Console.WriteLine("Tasks:");
-    foreach (var task in tasks)
+
+    public void ListTasks()
     {
-        Console.WriteLine($"[{task.Id}] {task.Description} - {(task.IsComplete ? "Complete" : "Incomplete")}");
+        Console.WriteLine("Tasks:");
+        foreach (var task in tasks)
+        {
+            Console.WriteLine($"[{task.Id}] {task.Description} - {(task.IsComplete ? "Complete" : "Incomplete")}");
+        }
     }
-  }
 }

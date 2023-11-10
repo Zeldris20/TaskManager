@@ -1,4 +1,3 @@
-// Program.cs
 using System;
 
 class Program
@@ -18,5 +17,7 @@ class Program
         taskManager.MarkTaskAsComplete(1);
 
         taskManager.ListTasks();
+
+        Console.ReadLine(); // Keeps the console window open
     }
 }
