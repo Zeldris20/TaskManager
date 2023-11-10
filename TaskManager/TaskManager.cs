@@ -35,15 +35,4 @@ public class TaskManager
             Console.WriteLine($"[{task.Id}] {task.Description} - {(task.IsComplete ? "Complete" : "Incomplete")}");
         }
     }
-
-    public void DeleteTask(int taskId)
-    {
-        Task taskToDelete = tasks.Find(t => t.Id == taskId);
-        if (taskToDelete != null)
-        {
-            tasks.Remove(taskToDelete);
-        }
-    }
-
-    
 }
