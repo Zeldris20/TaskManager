@@ -14,8 +14,16 @@ class Program
 
         taskManager.ListTasks();
 
-        Console.WriteLine("\nMarking task 1 as complete...");
-        taskManager.MarkTaskAsComplete(1);
+        // Ask the user if they want to add a task
+        Console.Write("\nDo you want to add a task? (y/n) ");
+        string answer = Console.ReadLine().ToLower();
+        if (answer == "y")
+        {
+            Console.Write("Enter task description: ");
+            string userTaskDescription = Console.ReadLine();
+            taskManager.AddTask(userTaskDescription);
+        }
+        
 
         taskManager.ListTasks();
     }
