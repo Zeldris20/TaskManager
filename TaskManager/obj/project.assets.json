@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ZeldrisOW\\Documents\\git\\TaskManager\\TaskManager.csproj",
-      "projectName": "TaskManager",
-      "projectPath": "C:\\Users\\ZeldrisOW\\Documents\\git\\TaskManager\\TaskManager.csproj",
+      "projectUniqueName": "C:\\Users\\ZeldrisOW\\Documents\\git\\TaskManager\\Manager.csproj",
+      "projectName": "Manager",
+      "projectPath": "C:\\Users\\ZeldrisOW\\Documents\\git\\TaskManager\\Manager.csproj",
       "packagesPath": "C:\\Users\\ZeldrisOW\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ZeldrisOW\\Documents\\git\\TaskManager\\obj\\",
       "projectStyle": "PackageReference",
