@@ -1,7 +1,13 @@
 // Task.cs
 public class Task
 {
-    public int Id { get; set; }
-    public string Description { get; set; }
-    public bool IsComplete { get; set; }
+    public string TaskDescription { get; set; }
+    public bool IsCompleted { get; set; }
+
+    // Constructor with parameters
+    public Task(string description, bool isCompleted)
+    {
+        TaskDescription = description;
+        this.IsCompleted = isCompleted;
+    }
 }

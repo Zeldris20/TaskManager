@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2AeJHq6tlyrw5DGz80tOeSzAnnwxROwZ2Np7FLGM0Hy8QvbkqkYNLEYCCAEfINOIPYkP/l6CtYoxC2qSAN5XKQ==",
+  "dgSpecHash": "Ki9OWfBOUs9gJRjl9PJjKWLppnzhZyz2hAgFX77NlkU1GbFVfolIM/CGTaIGVPVK2zOJ7Vu6jJmvsb9YFEVROw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ZeldrisOW\\Documents\\git\\TaskManager\\TaskManager.csproj",
+  "projectFilePath": "C:\\Users\\ZeldrisOW\\Documents\\git\\TaskManager\\Manager.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

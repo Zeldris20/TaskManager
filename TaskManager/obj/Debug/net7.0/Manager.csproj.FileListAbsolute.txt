@@ -1,0 +1,12 @@
+C:\Users\ZeldrisOW\Documents\git\TaskManager\bin\Debug\net7.0\Manager.exe
+C:\Users\ZeldrisOW\Documents\git\TaskManager\bin\Debug\net7.0\Manager.deps.json
+C:\Users\ZeldrisOW\Documents\git\TaskManager\bin\Debug\net7.0\Manager.runtimeconfig.json
+C:\Users\ZeldrisOW\Documents\git\TaskManager\bin\Debug\net7.0\Manager.dll
+C:\Users\ZeldrisOW\Documents\git\TaskManager\bin\Debug\net7.0\Manager.pdb
+C:\Users\ZeldrisOW\Documents\git\TaskManager\obj\Debug\net7.0\Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZeldrisOW\Documents\git\TaskManager\obj\Debug\net7.0\Manager.csproj.CoreCompileInputs.cache
+C:\Users\ZeldrisOW\Documents\git\TaskManager\obj\Debug\net7.0\Manager.dll
+C:\Users\ZeldrisOW\Documents\git\TaskManager\obj\Debug\net7.0\refint\Manager.dll
+C:\Users\ZeldrisOW\Documents\git\TaskManager\obj\Debug\net7.0\Manager.pdb
+C:\Users\ZeldrisOW\Documents\git\TaskManager\obj\Debug\net7.0\Manager.genruntimeconfig.cache
+C:\Users\ZeldrisOW\Documents\git\TaskManager\obj\Debug\net7.0\ref\Manager.dll
